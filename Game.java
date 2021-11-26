@@ -3,20 +3,20 @@ import java.io.*;
 import javax.swing.*;
 import java.awt.*; 
 import java.awt.event.*; 
-class Game implements ActionListener{
+public class Game implements ActionListener{
   int totalScore;
   String currentAnswer;
   int quesValue;
   int currentQues;
   
-  Random r = new Random()
+  Random r = new Random();
   Scanner s = new Scanner(System.in);
-  ArrayList<Question> Trivia = new ArrayList<Question>;
+  ArrayList<Question> Trivia = new ArrayList<Question>();
   
   JLabel category = new JLabel();
   JButton randomCategory = new JButton("Click to get random category");
   JButton randomQuestion = new JButton("Click to get random question");
-  JLabel question = new JButton();
+  JLabel question = new JLabel();
   JRadioButton firstOption = new JRadioButton();
   JRadioButton secOption = new JRadioButton();
   JRadioButton thirdOption = new JRadioButton();
@@ -36,8 +36,8 @@ class Game implements ActionListener{
       String quesOptTwo = myReader.readLine();
       String quesOptThree = myReader.readLine();
       String quesOptFour = myReader.readLine();
-      int correctAnswer = myReader.parseInt(readLine());
-      int quesValue = myReader.parseInt(readLine());
+      int correctAnswer = Integer.parseInt(reader.readLine);
+      int quesValue = Integer.parseInt(reader.readLine);
       String quesCat = myReader.readLine();
 
       Question storeQues(quesName, quesOptOne, quesOptTwo, quesOptThree, quesOptFour, correctAnswer, quesValue, quesCat);

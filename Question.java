@@ -8,7 +8,7 @@ class Question{
   int points;
   String category;
 
-Question(String aQuesName, String aQuesAnswer1, String aQuesAnswer2, String aQuesAnswer3, String aQuesAnswer4, String aCorrectAnswer, int aPoints, String aCategory){
+Question(String aQuesName, String aQuesAnswer1, String aQuesAnswer2, String aQuesAnswer3, String aQuesAnswer4, int aCorrectAnswer, int aPoints, String aCategory){
   quesName = aQuesName;
   quesAnswer1 = aQuesAnswer1;
   quesAnswer2 = aQuesAnswer2;
