@@ -40,7 +40,7 @@ public class Game implements ActionListener{
       int quesValue = Integer.parseInt(reader.readLine());
       String quesCat = myReader.readLine();
 
-      Question storeQues(quesName, quesOptOne, quesOptTwo, quesOptThree, quesOptFour, correctAnswer, quesValue, quesCat);
+      Question storeQues = new Question(quesName, quesOptOne, quesOptTwo, quesOptThree, quesOptFour, correctAnswer, quesValue, quesCat);
 
       Trivia.add(storeQues);
     }
