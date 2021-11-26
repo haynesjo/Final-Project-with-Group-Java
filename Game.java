@@ -36,8 +36,8 @@ public class Game implements ActionListener{
       String quesOptTwo = myReader.readLine();
       String quesOptThree = myReader.readLine();
       String quesOptFour = myReader.readLine();
-      int correctAnswer = Integer.parseInt(reader.readLine);
-      int quesValue = Integer.parseInt(reader.readLine);
+      int correctAnswer = Integer.parseInt(reader.readLine());
+      int quesValue = Integer.parseInt(reader.readLine());
       String quesCat = myReader.readLine();
 
       Question storeQues(quesName, quesOptOne, quesOptTwo, quesOptThree, quesOptFour, correctAnswer, quesValue, quesCat);
